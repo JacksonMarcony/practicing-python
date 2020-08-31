@@ -1,5 +1,5 @@
-num = int(input('Digite o num: '))
-if num > 0:
+n = int(input('insira um número: '))
+if n > 0:
   print('É positivo')
 else:
-  print('É negative')
+  print('É negativo')

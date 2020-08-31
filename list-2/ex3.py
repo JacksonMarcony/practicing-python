@@ -1,10 +1,10 @@
 
-letra = input('Digite F ou M')
+sex = input('entre com f ou m')
 
-if letra.lower() == 'm' or letra.lower() == 'f':
-  if letra.lower() == 'm':
-    print('Masculino')
-  elif letra.lower() == 'f':
-    print('Feminino')
+if sex.lower() == 'm' or sex.lower() == 'f':
+  if sex.lower() == 'm':
+    print('machin')
+  elif sex.lower() == 'f':
+    print('femea')
 else:
-  print('Letra não definida')
+  print('Insira um caracter válido !!!!')

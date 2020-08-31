@@ -1,12 +1,10 @@
-nota1 = float(input('Digite suas nota 1'))
-nota2 = float(input('Digite suas nota 2'))
-media = (nota1 + nota2)/2
-print('A media das nota é:', media )
+n1 = float(input('nota 1'))
+n2 = float(input('nota 2'))
+media = (n1 + n2)/2
+print('A media é:', media )
 if media == 10:
-    print('Aprovado')
+    print('aprovado')
 elif media >= 7:
-    print('Aprovado por distinção')
+    print('Aprovado com Distinção')
 elif media < 7:
-    print('Reprovado')
-else:
-    print('Houve um erro na digitação')
+    print('reprovado')

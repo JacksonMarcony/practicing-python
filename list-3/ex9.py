@@ -1,3 +1,5 @@
-#C = 5 * ((F-32) / 9). 
-temp = float(input('Digite a temperatura desejada: '))
-print('A temperatua em C é:', 5 * ((temp - 32) / 9) )
+for i in range(1,50):
+    if i % 2 == 0:
+        pass
+    else:
+        print(i)

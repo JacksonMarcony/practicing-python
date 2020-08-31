@@ -1,7 +1,7 @@
-num1 = int(input('Digite o primeiro numero:'))
-num2 = int(input('Digite o segundo numero:'))
+n1 = int(input('primeiro:'))
+n2 = int(input('segundo:'))
 
-if num1 >= num2:
-  print('O maior é',num1)
+if n1 >= n2:
+  print('maior: ',n1)
 else:
-  print('O menor é',num2)
+  print('menor: ',n2)

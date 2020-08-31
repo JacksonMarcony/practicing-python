@@ -1,14 +1,14 @@
-prod1 = int(input('Digite o preco do primeiro produto'))
-prod2 = int(input('Digite o preco do segundo produto'))
-prod3 = int(input('Digite o preco do terceiro produto'))
+p1 = int(input('Entre com o preço do primeiro produto'))
+p2 = int(input('Entre com o preço do segundo produto'))
+p3 = int(input('Entre com o preço do terceiro produto'))
 
-if prod1 < prod2 and prod1 < prod3:
-    best = prod1
+if p1 < p2 and p1 < p3:
+    best = p1
     msg = f'compre o{best}'
-elif prod2 < prod1 and prod2 < prod3:
-    best = prod2
+elif p2 < p1 and p2 < p3:
+    best = p2
     msg = f'compre o{best}'
-elif prod3 < prod2 and prod3 < prod1:
-    best = prod3
+elif p3 < p2 and p3 < p1:
+    best = p3
     msg = f'compre o{best}'
 print(msg)

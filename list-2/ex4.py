@@ -1,6 +1,6 @@
-vogais = 'a e i o u'.split()
-letra_alfabet = input('Digite a letra')
-if letra_alfabet.lower() in vogais:
-  print('É vogal')
+vogais = 'a e i o u'
+let = input('Digite a letra')
+if let in vogais:
+  print('vogal')
 else:
-  print('É consoante')
+  print('consoante')

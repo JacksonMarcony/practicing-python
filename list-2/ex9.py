@@ -1,6 +1,6 @@
-num1 = int(input('Digite o numero: '))
-num2 = int(input('Digite o numero: '))
-num3 = int(input('Digite o numero: '))
+num1 = int(input('Insira um numero: '))
+num2 = int(input('Insira um numero: '))
+num3 = int(input('Insira um numero: '))
 ma2 = None
 
 if num1 > num2 and num1 > num3:
@@ -22,5 +22,5 @@ elif num2 < num1 and num2 < num3:
 elif num3 < num2 and num3 < num1:
     me = num3
 
-lista = [ma,ma2,me]
-print(lista)
+array = [ma,ma2,me]
+print(array)
